@@ -1,0 +1,98 @@
+:root {
+--Yellow: hsl(47, 88%, 63%);
+--White: hsl(0, 0%, 100%);
+--Gray-500: hsl(0, 0%, 42%);
+--Gray-950: hsl(0, 0%, 7%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Figtree;
+    font-size: 16px;
+}
+
+body {
+    background-color: var(--Yellow);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    min-height: 522px;
+    height: 522px;
+    background-color: var(--White);
+    max-width: 400px;
+    width: 384px;
+    border: 2px solid #000;
+    border-radius: 16px;
+    box-shadow: 10px 10px 0px 0px #000;
+}
+
+.card-img {
+    max-width: 100%;
+    width: 336px;
+    margin: 22px;
+    border-radius: 12px;
+}
+
+.content {
+    margin: 0 24px;
+}
+
+.content .tag-content {
+    display: inline-block;
+    background-color: var(--Yellow);
+    font-weight: bold;
+    padding: 4px 12px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.content .date-content {
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.content .content-heading {
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.content .content-desc {
+    color: var(--Gray-500);
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.artist {
+    display: flex;
+    margin: 24px;
+    align-items: center;
+}
+
+.artist-img {
+    width: 32px;
+    height: 32px;
+}
+
+.artist-name {
+    font-weight: 800;
+    padding-left: 10px;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
